@@ -1,0 +1,30 @@
+{  	
+  "attachments": [
+    {
+      "fallback": "Available",
+      "pretext": "Device Availability",
+      "title": "Available",
+      "title_link": "http://devicefarm.hikeapp.com/#!/devices",
+      "fields": [
+        { "title": "Model, OS, Serial", "value": "${0}", "short": true }
+      ],
+      "color": "#7CD197"
+    },
+    {
+      "title": "Busy",
+      "title_link": "http://devicefarm.hikeapp.com/#!/devices",
+      "fields": [
+        { "title": "Model, OS, Serial, User", "value": "${1}", "short": true }
+      ],
+      "color": "#f4a641"
+    },
+    {
+      "title": "Disconnected",
+      "title_link": "http://devicefarm.hikeapp.com/#!/devices",
+      "fields": [
+        { "title": "Model, Serial", "value": "${2}", "short": true }
+      ],
+      "color": "#f44141"
+    }
+  ]
+}
